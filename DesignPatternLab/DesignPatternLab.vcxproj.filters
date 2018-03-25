@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Visitor">
+      <UniqueIdentifier>{2d4235b9-f551-47aa-affe-9f8f5ce8a3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bridge">
+      <UniqueIdentifier>{1ba81896-e0a8-4744-91b8-05dd0cc20b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChainOfResponsibility">
+      <UniqueIdentifier>{ab275b8f-3d0d-477b-b20f-866418f007a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\DesignPatternLabMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Visitor\Visitor.cpp">
+      <Filter>Source Files\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Bridge\Bridege .cpp">
+      <Filter>Source Files\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ChainOfResponsibility\ChainOfResponsibility.cpp">
+      <Filter>Source Files\ChainOfResponsibility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Visitor\Visitor.h">
+      <Filter>Source Files\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Bridge\Bridege.h">
+      <Filter>Source Files\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ChainOfResponsibility\ChainOfResponsibility.h">
+      <Filter>Source Files\ChainOfResponsibility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
