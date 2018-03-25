@@ -75,6 +75,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -111,6 +112,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Src\BinaryTree\BinaryTree.cpp" />
+    <ClCompile Include="Src\BinaryTree\test\BinaryTree_test .cpp" />
+    <ClCompile Include="Src\Graphic\Graphic.cpp" />
+    <ClCompile Include="Src\Graphic\test\Graphic_test .cpp" />
+    <ClCompile Include="Src\LinkList\LinkList.cpp" />
+    <ClCompile Include="Src\LinkList\test\LinkList_test.cpp" />
+    <ClCompile Include="Src\Search\BinarySearchTree.cpp" />
+    <ClCompile Include="Src\Search\DisJointSet.cpp" />
+    <ClCompile Include="Src\Search\SearchAlgorithm.cpp" />
+    <ClCompile Include="Src\Search\test\SearchAlgorithm_test .cpp" />
+    <ClCompile Include="Src\Sort\SortAlgorithm.cpp" />
+    <ClCompile Include="Src\Sort\test\SortAlgorithm_test.cpp" />
+    <ClCompile Include="Src\stdafx.cpp" />
+    <ClCompile Include="Src\String\String.cpp" />
+    <ClCompile Include="Src\String\test\Stringtest.cpp" />
+    <ClCompile Include="Src\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\BinaryTree\BinaryTree.h" />
+    <ClInclude Include="Src\BinaryTree\test\BinaryTree_test.h" />
+    <ClInclude Include="Src\Graphic\Graphic.h" />
+    <ClInclude Include="Src\Graphic\test\Graphic_test.h" />
+    <ClInclude Include="Src\LinkList\LinkList.h" />
+    <ClInclude Include="Src\LinkList\test\LinkList_test.h" />
+    <ClInclude Include="Src\Search\BinarySearchTree.h" />
+    <ClInclude Include="Src\Search\DisJointSet.h" />
+    <ClInclude Include="Src\Search\SearchAlgorithm.h" />
+    <ClInclude Include="Src\Search\test\SearchAlgorithm_test.h" />
+    <ClInclude Include="Src\Sort\SortAlgorithm.h" />
+    <ClInclude Include="Src\Sort\test\SortAlgorithm_test.h" />
+    <ClInclude Include="Src\stdafx.h" />
+    <ClInclude Include="Src\String\String.h" />
+    <ClInclude Include="Src\String\test\Stringtest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

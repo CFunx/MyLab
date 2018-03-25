@@ -13,5 +13,138 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{338b5c15-1d2f-4fed-ae9f-0390cdbca9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{9fd7b96d-feb1-4e45-b814-6f35189dcafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Search">
+      <UniqueIdentifier>{42dc4fbf-e9ab-49df-bea8-6b18d63c211e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinkList">
+      <UniqueIdentifier>{154fd272-bd3f-4830-82ed-829c20790658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{53e5a3b3-445f-4567-b059-8189de095e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree">
+      <UniqueIdentifier>{c5da3102-2c1e-410b-9baa-0ca3b4f09c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\test">
+      <UniqueIdentifier>{fc1cc7aa-761e-4e5c-a191-dcc58db2b1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree\test">
+      <UniqueIdentifier>{5a2f30b6-5bf9-40c8-a8f3-0eff85aa5058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinkList\test">
+      <UniqueIdentifier>{954bd7dd-bf7e-4ab0-9c7a-622f5f0a907b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Search\test">
+      <UniqueIdentifier>{64a5b481-10b9-4fdf-a053-41fd324d5c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort\test">
+      <UniqueIdentifier>{5311a7f3-e802-4dfb-b038-a19379f19cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String\test">
+      <UniqueIdentifier>{a8087acd-16a0-4b2a-81ee-0a91f8416564}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BinaryTree\test\BinaryTree_test .cpp">
+      <Filter>BinaryTree\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Graphic.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\test\Graphic_test .cpp">
+      <Filter>Graphic\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BinaryTree\BinaryTree.cpp">
+      <Filter>BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LinkList\LinkList.cpp">
+      <Filter>LinkList</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LinkList\test\LinkList_test.cpp">
+      <Filter>LinkList\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Search\DisJointSet.cpp">
+      <Filter>Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Search\SearchAlgorithm.cpp">
+      <Filter>Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Search\test\SearchAlgorithm_test .cpp">
+      <Filter>Search\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sort\SortAlgorithm.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sort\test\SortAlgorithm_test.cpp">
+      <Filter>Sort\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\String\test\Stringtest.cpp">
+      <Filter>String\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\String\String.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Search\BinarySearchTree.cpp">
+      <Filter>Search</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BinaryTree\test\BinaryTree_test.h">
+      <Filter>BinaryTree\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Graphic.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\test\Graphic_test.h">
+      <Filter>Graphic\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BinaryTree\BinaryTree.h">
+      <Filter>BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LinkList\LinkList.h">
+      <Filter>LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LinkList\test\LinkList_test.h">
+      <Filter>LinkList\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Search\DisJointSet.h">
+      <Filter>Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Search\SearchAlgorithm.h">
+      <Filter>Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Search\test\SearchAlgorithm_test.h">
+      <Filter>Search\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sort\SortAlgorithm.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sort\test\SortAlgorithm_test.h">
+      <Filter>Sort\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\String\test\Stringtest.h">
+      <Filter>String\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\String\String.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Search\BinarySearchTree.h">
+      <Filter>Search</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
