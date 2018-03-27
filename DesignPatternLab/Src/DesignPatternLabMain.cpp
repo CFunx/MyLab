@@ -1,11 +1,12 @@
-#include "Visitor/Visitor.h"
 #include "Bridge/Bridege.h"
-#include "ChainOfResponsibility\ChainOfResponsibility.h"
+#include "Visitor/Visitor.h"
+#include "Decorator/Decorator.h"
+#include "ChainOfResponsibility/ChainOfResponsibility.h"
 
 
 int main(int argc, char* argv[])
 {
-	TestChainOfResponsibility();
+	TestDecorator();
 	getchar();
 	return 0;
 }

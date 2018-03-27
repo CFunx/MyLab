@@ -22,6 +22,9 @@
     <Filter Include="Source Files\ChainOfResponsibility">
       <UniqueIdentifier>{ab275b8f-3d0d-477b-b20f-866418f007a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Decorator">
+      <UniqueIdentifier>{a9159ec4-f987-4fd6-9e36-9bdca0e7bc5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="Src\ChainOfResponsibility\ChainOfResponsibility.cpp">
       <Filter>Source Files\ChainOfResponsibility</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Decorator\Decorator.cpp">
+      <Filter>Source Files\Decorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="Src\ChainOfResponsibility\ChainOfResponsibility.h">
       <Filter>Source Files\ChainOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Decorator\Decorator.h">
+      <Filter>Source Files\Decorator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
