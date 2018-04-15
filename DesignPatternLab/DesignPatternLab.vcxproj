@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -116,12 +116,16 @@
     <ClCompile Include="Src\ChainOfResponsibility\ChainOfResponsibility.cpp" />
     <ClCompile Include="Src\Decorator\Decorator.cpp" />
     <ClCompile Include="Src\DesignPatternLabMain.cpp" />
+    <ClCompile Include="Src\FlyWeight\FlyWeight.cpp" />
+    <ClCompile Include="Src\Memento\Memento .cpp" />
     <ClCompile Include="Src\Visitor\Visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Bridge\Bridege.h" />
     <ClInclude Include="Src\ChainOfResponsibility\ChainOfResponsibility.h" />
     <ClInclude Include="Src\Decorator\Decorator.h" />
+    <ClInclude Include="Src\FlyWeight\FlyWeight.h" />
+    <ClInclude Include="Src\Memento\Memento.h" />
     <ClInclude Include="Src\Visitor\Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
