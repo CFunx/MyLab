@@ -8,7 +8,6 @@
 
 int main(int argc, char* argv[])
 {
-
 	TestMemento();
 	getchar();
 	return 0;
