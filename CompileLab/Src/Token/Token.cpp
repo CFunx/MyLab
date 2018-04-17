@@ -26,7 +26,7 @@ bool CLexer::Parse(const char* text)
 
 	while (*text)
 	{
-		if (*text != ' ')
+		if (*text != MY_SPACE)
 		{
 			GenerateToken(*text);
 		}
@@ -49,45 +49,28 @@ std::vector<TOKEN>& CLexer::GetToken()
 //! 整数的转化 https://codereview.stackexchange.com/questions/45755/implementation-of-atoi
 void CLexer::GenerateToken(char input)
 {
+	if (input >= '0' && input <= '9')
+	{
+		SaveToken(EM_TOKEN_INTEG, input);
+		return;
+	}
+
 	switch (input)
 	{
-	case '0':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '1':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '2':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '3':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '4':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '5':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '6':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '7':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '8':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
-	case '9':
-		SaveToken(EM_TOKEN_INTEG, input);
-		break;
 	case '+':
 		SaveToken(EM_TOKEN_PLUS, input);
 		break;
-
+	case '-':
+		SaveToken(EM_TOKEN_SUB, input);
+		break;
+	case '*':
+		SaveToken(EM_TOKEN_MUL, input);
+		break;
+	case '/':
+		SaveToken(EM_TOKEN_DIV, input);
+		break;
 	default:
 		break;
-		INT_MIN;
 	}
 
 }
@@ -96,18 +79,25 @@ void CLexer::GenerateToken(char input)
 void CLexer::SaveToken(EM_TOKEN_TYPE type, char value)
 {
 	TOKEN token;
-	token.type = type;
+	token.type  = type;
 	token.value = value;
 
 	switch (type)
 	{
 	case EM_TOKEN_INTEG:
-		
 		std::cout << "< " << "int " << "," << value << ">\n";
 		break;
 	case EM_TOKEN_PLUS:
-		
 		std::cout << "< " << "+ " << "," << value << ">\n";
+		break;
+	case EM_TOKEN_SUB:
+		std::cout << "< " << "- " << "," << value << ">\n";
+		break;
+	case EM_TOKEN_MUL:
+		std::cout << "< " << "* " << "," << value << ">\n";
+		break;
+	case EM_TOKEN_DIV:
+		std::cout << "< " << "/ " << "," << value << ">\n";
 		break;
 	default:
 		break;
@@ -138,9 +128,9 @@ bool CInterpreter::Interpreter(const std::vector<TOKEN>& token,
 	auto it = token.begin();
 	for (; it != token.end(); it++, i++)
 	{
-		if ((i % 2 != 0) && it->type == EM_TOKEN_INTEG)
+		if(i % 2 != 0 && it->type == EM_TOKEN_INTEG)
 		{
-			Add(atoi(&(it->value)));
+			Add(it->value - '0');
 		}
 	}
 

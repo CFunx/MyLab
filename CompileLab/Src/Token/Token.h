@@ -23,13 +23,17 @@
 */
 
 
-#define MY_SPACE  ' '
+//! ¿Õ¸ñ¼üASCIIÖµ
+#define MY_SPACE  32
 
 
 typedef enum emTokenType
 {
 	EM_TOKEN_INTEG = 0, //!< Êý×Ö
 	EM_TOKEN_PLUS,      //!< ¼ÓºÅ
+	EM_TOKEN_SUB,       //!< ¼õºÅ
+	EM_TOKEN_MUL,       //!< ³ËºÅ
+	EM_TOKEN_DIV        //!< ³ýºÅ
 }EM_TOKEN_TYPE;
 
 
@@ -54,7 +58,6 @@ public:
 	bool Parse(const char* text);
 
 	std::vector<TOKEN>& GetToken();
-		  
 private:
 	
 	void GenerateToken(char input);
@@ -80,18 +83,14 @@ public:
 	bool Interpreter(const std::vector<TOKEN>& token,
 		std::string strMatchModel = "+");
 
-
 	int GetResult();
 private:
 
 	void Add(int n);
-
 private:
 
 	int m_result;
 };
-
-
 
 
 void TestToken();
