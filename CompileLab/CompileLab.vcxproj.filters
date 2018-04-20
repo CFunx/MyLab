@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Token">
       <UniqueIdentifier>{1e83d6da-fd51-4bc3-88db-0b2904cc435a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{4772528c-144d-4075-b611-382d49b8cd02}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Token\Token.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="CompileMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Util\Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Token\Token.h">
       <Filter>Source Files\Token</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Util\Util.h">
+      <Filter>Source Files\Util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

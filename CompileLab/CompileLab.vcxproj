@@ -114,9 +114,11 @@
   <ItemGroup>
     <ClCompile Include="CompileMain.cpp" />
     <ClCompile Include="Src\Token\Token.cpp" />
+    <ClCompile Include="Src\Util\Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Token\Token.h" />
+    <ClInclude Include="Src\Util\Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

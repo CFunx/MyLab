@@ -1,3 +1,4 @@
+#include "State/State.h"
 #include "Bridge/Bridege.h"
 #include "Visitor/Visitor.h"
 #include "Memento/Memento.h"
@@ -8,7 +9,7 @@
 
 int main(int argc, char* argv[])
 {
-	TestMemento();
+	TestState();
 	getchar();
 	return 0;
 }
