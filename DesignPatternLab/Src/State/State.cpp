@@ -47,10 +47,10 @@ bool ContextState::Destory()
 
 void ContextState::MakeChoice(std::string strStateID)
 {
+	//! 表格驱动法消除if-else
 	IStste* S = (m_state.at(strStateID));
 	S->Handle(strStateID);
 }
-
 
 
 void TestState()
