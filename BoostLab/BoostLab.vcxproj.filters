@@ -13,5 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Asio">
+      <UniqueIdentifier>{24fb6d28-095c-4868-876a-3276f8d5e389}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Asio\AsioMain.cpp">
+      <Filter>Source Files\Asio</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
