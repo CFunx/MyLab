@@ -1,13 +1,10 @@
+#include "./Template/FuncOverload.h"
+#include  "./Template/TemplateClass.h"
 
-#include"./Template/FuncOverload.h"
 
-
-
-int main()
+int main(int argc, char* argv[])
 {
-	
-
-	TestFuncOverload();
+	TestCTmpCl();
 	getchar();
 	return 0;
 }

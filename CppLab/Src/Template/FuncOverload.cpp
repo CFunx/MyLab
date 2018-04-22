@@ -19,4 +19,13 @@ void TestFuncOverload()
 
 	::min(a, b);
 
+	if (a)
+	{
+		std::cout << "1111\n";
+	}
+	
+	//https://stackoverflow.com/questions/7460410/lvalue-to-rvalue-conversions
+	//https://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c/
+    //http://en.cppreference.com/w/cpp/language/implicit_conversion
+    //http://en.cppreference.com/w/cpp/concept/PODType
 }
