@@ -114,9 +114,11 @@
   <ItemGroup>
     <ClCompile Include="Src\CppLabMain.cpp" />
     <ClCompile Include="Src\Template\FuncOverload.cpp" />
+    <ClCompile Include="Src\Template\TemplateClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Template\FuncOverload.h" />
+    <ClInclude Include="Src\Template\TemplateClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

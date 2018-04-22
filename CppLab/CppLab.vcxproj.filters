@@ -24,9 +24,15 @@
     <ClCompile Include="Src\Template\FuncOverload.cpp">
       <Filter>Source Files\Template</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Template\TemplateClass.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Template\FuncOverload.h">
+      <Filter>Source Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Template\TemplateClass.h">
       <Filter>Source Files\Template</Filter>
     </ClInclude>
   </ItemGroup>
