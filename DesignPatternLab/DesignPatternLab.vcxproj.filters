@@ -34,6 +34,9 @@
     <Filter Include="Source Files\State">
       <UniqueIdentifier>{527897a8-a38f-477f-827c-11eb8a73f343}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Strategy">
+      <UniqueIdentifier>{e8cc3d3e-2dcc-406e-b1c3-095b075cda27}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -60,6 +63,9 @@
     <ClCompile Include="Src\State\State.cpp">
       <Filter>Source Files\State</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Strategy\Strategy.cpp">
+      <Filter>Source Files\Strategy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -82,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="Src\State\State.h">
       <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Strategy\Strategy.h">
+      <Filter>Source Files\Strategy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
