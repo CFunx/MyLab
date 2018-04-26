@@ -120,6 +120,7 @@
     <ClCompile Include="Src\Memento\Memento .cpp" />
     <ClCompile Include="Src\State\State.cpp" />
     <ClCompile Include="Src\Strategy\Strategy.cpp" />
+    <ClCompile Include="Src\TemplateMethod\TemplateMethod.cpp" />
     <ClCompile Include="Src\Visitor\Visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +131,7 @@
     <ClInclude Include="Src\Memento\Memento.h" />
     <ClInclude Include="Src\State\State.h" />
     <ClInclude Include="Src\Strategy\Strategy.h" />
+    <ClInclude Include="Src\TemplateMethod\TemplateMethod.h" />
     <ClInclude Include="Src\Visitor\Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
