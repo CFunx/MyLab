@@ -40,6 +40,9 @@
     <Filter Include="Source Files\TemplateMethod">
       <UniqueIdentifier>{3145e322-5523-4990-9519-694cad35265c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Composite">
+      <UniqueIdentifier>{b7401922-f199-4290-a6df-763ca14e3578}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -72,6 +75,9 @@
     <ClCompile Include="Src\TemplateMethod\TemplateMethod.cpp">
       <Filter>Source Files\TemplateMethod</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Composite\Composite.cpp">
+      <Filter>Source Files\Composite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -100,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="Src\TemplateMethod\TemplateMethod.h">
       <Filter>Source Files\TemplateMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Composite\Composite.h">
+      <Filter>Source Files\Composite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
