@@ -2,7 +2,7 @@
 #include <cassert>
 
 
-namespace Composite
+namespace nsComposite
 {
 	void IComponent::SetChild(IComponent* component)
 	{

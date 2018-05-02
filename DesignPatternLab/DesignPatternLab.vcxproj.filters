@@ -43,6 +43,9 @@
     <Filter Include="Source Files\Composite">
       <UniqueIdentifier>{b7401922-f199-4290-a6df-763ca14e3578}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Iterator">
+      <UniqueIdentifier>{94dd04cb-86b2-4843-839a-80b198e16756}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -78,6 +81,9 @@
     <ClCompile Include="Src\Composite\Composite.cpp">
       <Filter>Source Files\Composite</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Iterator\Iterator.cpp">
+      <Filter>Source Files\Iterator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -109,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="Src\Composite\Composite.h">
       <Filter>Source Files\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Iterator\Iterator.h">
+      <Filter>Source Files\Iterator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

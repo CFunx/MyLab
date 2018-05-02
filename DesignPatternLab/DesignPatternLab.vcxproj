@@ -118,6 +118,7 @@
     <ClCompile Include="Src\Decorator\Decorator.cpp" />
     <ClCompile Include="Src\DesignPatternLabMain.cpp" />
     <ClCompile Include="Src\FlyWeight\FlyWeight.cpp" />
+    <ClCompile Include="Src\Iterator\Iterator.cpp" />
     <ClCompile Include="Src\Memento\Memento .cpp" />
     <ClCompile Include="Src\State\State.cpp" />
     <ClCompile Include="Src\Strategy\Strategy.cpp" />
@@ -130,6 +131,7 @@
     <ClInclude Include="Src\Composite\Composite.h" />
     <ClInclude Include="Src\Decorator\Decorator.h" />
     <ClInclude Include="Src\FlyWeight\FlyWeight.h" />
+    <ClInclude Include="Src\Iterator\Iterator.h" />
     <ClInclude Include="Src\Memento\Memento.h" />
     <ClInclude Include="Src\State\State.h" />
     <ClInclude Include="Src\Strategy\Strategy.h" />

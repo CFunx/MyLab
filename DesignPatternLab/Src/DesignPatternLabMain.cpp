@@ -2,6 +2,7 @@
 #include "Bridge/Bridege.h"
 #include "Visitor/Visitor.h"
 #include "Memento/Memento.h"
+#include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
 #include "Composite/Composite.h"
 #include "Decorator/Decorator.h"
@@ -12,7 +13,7 @@
 
 int main(int argc, char* argv[])
 {
-	Composite::TestComposite();
+	nsIterator::TestIterator();
 	getchar();
 	return 0;
 }

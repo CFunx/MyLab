@@ -8,7 +8,7 @@
 */
 
 
-namespace Composite
+namespace nsComposite
 {
 
 	//! 此类就是叶子节点和组合对象接口的集合
