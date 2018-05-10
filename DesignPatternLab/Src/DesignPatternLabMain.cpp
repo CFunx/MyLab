@@ -1,5 +1,6 @@
 #include "State/State.h"
 #include "Bridge/Bridege.h"
+#include "Command/Command.h"
 #include "Visitor/Visitor.h"
 #include "Memento/Memento.h"
 #include "Iterator/Iterator.h"
@@ -13,7 +14,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsIterator::TestIterator();
+	nsCmd::TestCommad();
 	getchar();
 	return 0;
 }

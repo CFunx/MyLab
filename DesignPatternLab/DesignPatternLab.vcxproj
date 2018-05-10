@@ -114,6 +114,7 @@
   <ItemGroup>
     <ClCompile Include="Src\Bridge\Bridege .cpp" />
     <ClCompile Include="Src\ChainOfResponsibility\ChainOfResponsibility.cpp" />
+    <ClCompile Include="Src\Command\Command.cpp" />
     <ClCompile Include="Src\Composite\Composite.cpp" />
     <ClCompile Include="Src\Decorator\Decorator.cpp" />
     <ClCompile Include="Src\DesignPatternLabMain.cpp" />
@@ -128,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="Src\Bridge\Bridege.h" />
     <ClInclude Include="Src\ChainOfResponsibility\ChainOfResponsibility.h" />
+    <ClInclude Include="Src\Command\Command.h" />
     <ClInclude Include="Src\Composite\Composite.h" />
     <ClInclude Include="Src\Decorator\Decorator.h" />
     <ClInclude Include="Src\FlyWeight\FlyWeight.h" />

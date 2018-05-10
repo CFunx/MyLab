@@ -6,9 +6,6 @@
 /**
 	µü´úÆ÷Ä£Ê½
 */
-
-
-
 namespace nsIterator
 {
 	class IContainers;
@@ -19,9 +16,7 @@ namespace nsIterator
 	public:
 
 		virtual size_t Size() = 0;
-		
 		virtual void Next() = 0;
-
 		virtual size_t Value() = 0;
 	};
 
@@ -70,7 +65,5 @@ namespace nsIterator
 	};
 
 
-
 	void  TestIterator();
-
 }
