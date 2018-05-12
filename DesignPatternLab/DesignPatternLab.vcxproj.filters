@@ -52,6 +52,9 @@
     <Filter Include="Source Files\Observer">
       <UniqueIdentifier>{5f95f233-393a-428f-b52f-d29baad11aa2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Proxy">
+      <UniqueIdentifier>{8c9d2978-1efa-4bdd-b714-1f5e000e0710}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -96,6 +99,9 @@
     <ClCompile Include="Src\Observer\Observer.cpp">
       <Filter>Source Files\Observer</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Proxy\Proxy.cpp">
+      <Filter>Source Files\Proxy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -136,6 +142,9 @@
     </ClInclude>
     <ClInclude Include="Src\Observer\Observer.h">
       <Filter>Source Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Proxy\Proxy.h">
+      <Filter>Source Files\Proxy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

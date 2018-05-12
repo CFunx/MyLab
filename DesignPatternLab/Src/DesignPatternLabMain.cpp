@@ -1,4 +1,5 @@
 #include "State/State.h"
+#include "Proxy/Proxy.h"
 #include "Bridge/Bridege.h"
 #include "Command/Command.h"
 #include "Visitor/Visitor.h"
@@ -15,7 +16,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsObserver::TestObserver();
+	nsProxy::TestProxy();
 	getchar();
 	return 0;
 }
