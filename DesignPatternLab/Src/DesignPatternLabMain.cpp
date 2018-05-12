@@ -3,6 +3,7 @@
 #include "Command/Command.h"
 #include "Visitor/Visitor.h"
 #include "Memento/Memento.h"
+#include "Observer/Observer.h"
 #include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
 #include "Composite/Composite.h"
@@ -14,7 +15,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsCmd::TestCommad();
+	nsObserver::TestObserver();
 	getchar();
 	return 0;
 }

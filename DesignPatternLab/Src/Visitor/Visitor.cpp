@@ -106,8 +106,12 @@ void TestVisitor()
 
 	//£¡Ïú»Ù
 	delete customerA;
+	customerA = nullptr;
 	delete customerB;
+	customerB = nullptr;
 
 	delete visitorA;
+	visitorA = nullptr;
 	delete visitorB;
+	visitorB = nullptr;
 }

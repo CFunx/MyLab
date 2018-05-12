@@ -121,6 +121,7 @@
     <ClCompile Include="Src\FlyWeight\FlyWeight.cpp" />
     <ClCompile Include="Src\Iterator\Iterator.cpp" />
     <ClCompile Include="Src\Memento\Memento .cpp" />
+    <ClCompile Include="Src\Observer\Observer.cpp" />
     <ClCompile Include="Src\State\State.cpp" />
     <ClCompile Include="Src\Strategy\Strategy.cpp" />
     <ClCompile Include="Src\TemplateMethod\TemplateMethod.cpp" />
@@ -135,6 +136,7 @@
     <ClInclude Include="Src\FlyWeight\FlyWeight.h" />
     <ClInclude Include="Src\Iterator\Iterator.h" />
     <ClInclude Include="Src\Memento\Memento.h" />
+    <ClInclude Include="Src\Observer\Observer.h" />
     <ClInclude Include="Src\State\State.h" />
     <ClInclude Include="Src\Strategy\Strategy.h" />
     <ClInclude Include="Src\TemplateMethod\TemplateMethod.h" />

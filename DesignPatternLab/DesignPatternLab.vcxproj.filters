@@ -49,6 +49,9 @@
     <Filter Include="Source Files\Command">
       <UniqueIdentifier>{83ec2548-11dd-4c3c-997b-58ba8c25d27b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Observer">
+      <UniqueIdentifier>{5f95f233-393a-428f-b52f-d29baad11aa2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -90,6 +93,9 @@
     <ClCompile Include="Src\Command\Command.cpp">
       <Filter>Source Files\Command</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Observer\Observer.cpp">
+      <Filter>Source Files\Observer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -127,6 +133,9 @@
     </ClInclude>
     <ClInclude Include="Src\Command\Command.h">
       <Filter>Source Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Observer\Observer.h">
+      <Filter>Source Files\Observer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
