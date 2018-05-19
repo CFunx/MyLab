@@ -7,6 +7,7 @@
 #include "Observer/Observer.h"
 #include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
+#include "Mediator/Mediator.h"
 #include "Composite/Composite.h"
 #include "Decorator/Decorator.h"
 #include "FlyWeight/FlyWeight.h"
@@ -16,7 +17,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsProxy::TestProxy();
+	nsMediator::TestMediator();
 	getchar();
 	return 0;
 }

@@ -55,6 +55,9 @@
     <Filter Include="Source Files\Proxy">
       <UniqueIdentifier>{8c9d2978-1efa-4bdd-b714-1f5e000e0710}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Mediator">
+      <UniqueIdentifier>{737fd498-4ffc-4b27-8fa9-2002064de825}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -102,6 +105,9 @@
     <ClCompile Include="Src\Proxy\Proxy.cpp">
       <Filter>Source Files\Proxy</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Mediator\Mediator.cpp">
+      <Filter>Source Files\Mediator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -145,6 +151,9 @@
     </ClInclude>
     <ClInclude Include="Src\Proxy\Proxy.h">
       <Filter>Source Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Mediator\Mediator.h">
+      <Filter>Source Files\Mediator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

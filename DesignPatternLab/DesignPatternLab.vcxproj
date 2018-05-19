@@ -120,6 +120,7 @@
     <ClCompile Include="Src\DesignPatternLabMain.cpp" />
     <ClCompile Include="Src\FlyWeight\FlyWeight.cpp" />
     <ClCompile Include="Src\Iterator\Iterator.cpp" />
+    <ClCompile Include="Src\Mediator\Mediator.cpp" />
     <ClCompile Include="Src\Memento\Memento .cpp" />
     <ClCompile Include="Src\Observer\Observer.cpp" />
     <ClCompile Include="Src\Proxy\Proxy.cpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="Src\Decorator\Decorator.h" />
     <ClInclude Include="Src\FlyWeight\FlyWeight.h" />
     <ClInclude Include="Src\Iterator\Iterator.h" />
+    <ClInclude Include="Src\Mediator\Mediator.h" />
     <ClInclude Include="Src\Memento\Memento.h" />
     <ClInclude Include="Src\Observer\Observer.h" />
     <ClInclude Include="Src\Proxy\Proxy.h" />
