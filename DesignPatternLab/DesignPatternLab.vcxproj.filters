@@ -58,6 +58,9 @@
     <Filter Include="Source Files\Mediator">
       <UniqueIdentifier>{737fd498-4ffc-4b27-8fa9-2002064de825}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Prototype">
+      <UniqueIdentifier>{e0ad81c1-577f-4204-a785-c1e7849e5cbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -108,6 +111,9 @@
     <ClCompile Include="Src\Mediator\Mediator.cpp">
       <Filter>Source Files\Mediator</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Prototype\Prototype.cpp">
+      <Filter>Source Files\Prototype</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -154,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="Src\Mediator\Mediator.h">
       <Filter>Source Files\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Prototype\Prototype.h">
+      <Filter>Source Files\Prototype</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -8,6 +8,7 @@
 #include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
 #include "Mediator/Mediator.h"
+#include "Prototype/Prototype.h"
 #include "Composite/Composite.h"
 #include "Decorator/Decorator.h"
 #include "FlyWeight/FlyWeight.h"
@@ -17,7 +18,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsMediator::TestMediator();
+	nsPrototype::TestPrototype();
 	getchar();
 	return 0;
 }
