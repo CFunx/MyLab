@@ -61,6 +61,9 @@
     <Filter Include="Source Files\Prototype">
       <UniqueIdentifier>{e0ad81c1-577f-4204-a785-c1e7849e5cbd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Builder">
+      <UniqueIdentifier>{62a58c07-e221-411c-8cb5-e1bd6d66e927}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -114,6 +117,9 @@
     <ClCompile Include="Src\Prototype\Prototype.cpp">
       <Filter>Source Files\Prototype</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Builder\Builder.cpp">
+      <Filter>Source Files\Builder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -163,6 +169,9 @@
     </ClInclude>
     <ClInclude Include="Src\Prototype\Prototype.h">
       <Filter>Source Files\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Builder\Builder.h">
+      <Filter>Source Files\Builder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

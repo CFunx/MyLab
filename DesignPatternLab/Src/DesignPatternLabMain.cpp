@@ -4,6 +4,7 @@
 #include "Command/Command.h"
 #include "Visitor/Visitor.h"
 #include "Memento/Memento.h"
+#include "Builder/Builder.h"
 #include "Observer/Observer.h"
 #include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
@@ -18,7 +19,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsPrototype::TestPrototype();
+	nsBuilder::TestBuilder();
 	getchar();
 	return 0;
 }

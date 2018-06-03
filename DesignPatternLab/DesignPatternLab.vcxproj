@@ -113,6 +113,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\Bridge\Bridege .cpp" />
+    <ClCompile Include="Src\Builder\Builder.cpp" />
     <ClCompile Include="Src\ChainOfResponsibility\ChainOfResponsibility.cpp" />
     <ClCompile Include="Src\Command\Command.cpp" />
     <ClCompile Include="Src\Composite\Composite.cpp" />
@@ -132,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Bridge\Bridege.h" />
+    <ClInclude Include="Src\Builder\Builder.h" />
     <ClInclude Include="Src\ChainOfResponsibility\ChainOfResponsibility.h" />
     <ClInclude Include="Src\Command\Command.h" />
     <ClInclude Include="Src\Composite\Composite.h" />
