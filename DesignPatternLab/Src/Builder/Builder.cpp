@@ -71,7 +71,6 @@ namespace nsBuilder
 	{
 		//! 创建具体的创建者
 		IBuilder* builderA = new CBuilderA();
-
 		IBuilder* builderB = new CBuilderB();
 
 

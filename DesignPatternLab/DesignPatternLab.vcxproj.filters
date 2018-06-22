@@ -67,6 +67,9 @@
     <Filter Include="Source Files\AbsFactory">
       <UniqueIdentifier>{743247e9-739b-4095-b3a1-280ec2db4873}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\FactoryMethod">
+      <UniqueIdentifier>{167c78fe-4f06-44cf-b7eb-709010395423}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -126,6 +129,9 @@
     <ClCompile Include="Src\AbsFactory\AbsFactory.cpp">
       <Filter>Source Files\AbsFactory</Filter>
     </ClCompile>
+    <ClCompile Include="Src\FactoryMethod\FactoryMethod.cpp">
+      <Filter>Source Files\FactoryMethod</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -181,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="Src\AbsFactory\AbsFactory.h">
       <Filter>Source Files\AbsFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FactoryMethod\FactoryMethod.h">
+      <Filter>Source Files\FactoryMethod</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

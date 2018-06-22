@@ -14,13 +14,14 @@
 #include "Decorator/Decorator.h"
 #include "FlyWeight/FlyWeight.h"
 #include "AbsFactory/AbsFactory.h"
+#include "FactoryMethod/FactoryMethod.h"
 #include "TemplateMethod/TemplateMethod.h"
 #include "ChainOfResponsibility/ChainOfResponsibility.h"
 
 
 int main(int argc, char* argv[])
 {
-	nsAbsFactory::TestAbsFactory();
+	nsFactoryMethod::TestFactoryMethod();
 	getchar();
 	return 0;
 }
