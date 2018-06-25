@@ -70,6 +70,12 @@
     <Filter Include="Source Files\FactoryMethod">
       <UniqueIdentifier>{167c78fe-4f06-44cf-b7eb-709010395423}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Singleton">
+      <UniqueIdentifier>{5a62c45e-e282-433e-92db-7ea755bd07cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Adapter">
+      <UniqueIdentifier>{1cf88abb-19a1-4d4e-86c6-c75be73c83a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -132,6 +138,12 @@
     <ClCompile Include="Src\FactoryMethod\FactoryMethod.cpp">
       <Filter>Source Files\FactoryMethod</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Singleton\Singleton.cpp">
+      <Filter>Source Files\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Adapter\Adapter.cpp">
+      <Filter>Source Files\Adapter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -190,6 +202,12 @@
     </ClInclude>
     <ClInclude Include="Src\FactoryMethod\FactoryMethod.h">
       <Filter>Source Files\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Singleton\Singleton.h">
+      <Filter>Source Files\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Adapter\Adapter.h">
+      <Filter>Source Files\Adapter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

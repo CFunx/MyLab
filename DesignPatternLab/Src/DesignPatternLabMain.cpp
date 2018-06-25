@@ -5,6 +5,7 @@
 #include "Visitor/Visitor.h"
 #include "Memento/Memento.h"
 #include "Builder/Builder.h"
+#include "Adapter/Adapter.h"
 #include "Observer/Observer.h"
 #include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
@@ -21,7 +22,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsFactoryMethod::TestFactoryMethod();
+	nsAdapter::TestAdapter();
 	getchar();
 	return 0;
 }

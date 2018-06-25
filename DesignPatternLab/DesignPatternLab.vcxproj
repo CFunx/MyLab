@@ -113,6 +113,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\AbsFactory\AbsFactory.cpp" />
+    <ClCompile Include="Src\Adapter\Adapter.cpp" />
     <ClCompile Include="Src\Bridge\Bridege .cpp" />
     <ClCompile Include="Src\Builder\Builder.cpp" />
     <ClCompile Include="Src\ChainOfResponsibility\ChainOfResponsibility.cpp" />
@@ -128,6 +129,7 @@
     <ClCompile Include="Src\Observer\Observer.cpp" />
     <ClCompile Include="Src\Prototype\Prototype.cpp" />
     <ClCompile Include="Src\Proxy\Proxy.cpp" />
+    <ClCompile Include="Src\Singleton\Singleton.cpp" />
     <ClCompile Include="Src\State\State.cpp" />
     <ClCompile Include="Src\Strategy\Strategy.cpp" />
     <ClCompile Include="Src\TemplateMethod\TemplateMethod.cpp" />
@@ -135,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\AbsFactory\AbsFactory.h" />
+    <ClInclude Include="Src\Adapter\Adapter.h" />
     <ClInclude Include="Src\Bridge\Bridege.h" />
     <ClInclude Include="Src\Builder\Builder.h" />
     <ClInclude Include="Src\ChainOfResponsibility\ChainOfResponsibility.h" />
@@ -149,6 +152,7 @@
     <ClInclude Include="Src\Observer\Observer.h" />
     <ClInclude Include="Src\Prototype\Prototype.h" />
     <ClInclude Include="Src\Proxy\Proxy.h" />
+    <ClInclude Include="Src\Singleton\Singleton.h" />
     <ClInclude Include="Src\State\State.h" />
     <ClInclude Include="Src\Strategy\Strategy.h" />
     <ClInclude Include="Src\TemplateMethod\TemplateMethod.h" />
