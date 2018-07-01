@@ -76,6 +76,9 @@
     <Filter Include="Source Files\Adapter">
       <UniqueIdentifier>{1cf88abb-19a1-4d4e-86c6-c75be73c83a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Facade">
+      <UniqueIdentifier>{b8e2c456-99fd-403d-9692-79b0bf52cf4b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\DesignPatternLabMain.cpp">
@@ -144,6 +147,9 @@
     <ClCompile Include="Src\Adapter\Adapter.cpp">
       <Filter>Source Files\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="Src\Facade\Facade.cpp">
+      <Filter>Source Files\Facade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Visitor\Visitor.h">
@@ -208,6 +214,9 @@
     </ClInclude>
     <ClInclude Include="Src\Adapter\Adapter.h">
       <Filter>Source Files\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Facade\Facade.h">
+      <Filter>Source Files\Facade</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

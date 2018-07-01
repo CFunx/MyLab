@@ -1,5 +1,6 @@
 #include "State/State.h"
 #include "Proxy/Proxy.h"
+#include "Facade/Facade.h"
 #include "Bridge/Bridege.h"
 #include "Command/Command.h"
 #include "Visitor/Visitor.h"
@@ -22,7 +23,7 @@
 
 int main(int argc, char* argv[])
 {
-	nsAdapter::TestAdapter();
+	nsFacade::TestFacade();
 	getchar();
 	return 0;
 }

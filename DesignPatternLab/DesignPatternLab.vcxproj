@@ -121,6 +121,7 @@
     <ClCompile Include="Src\Composite\Composite.cpp" />
     <ClCompile Include="Src\Decorator\Decorator.cpp" />
     <ClCompile Include="Src\DesignPatternLabMain.cpp" />
+    <ClCompile Include="Src\Facade\Facade.cpp" />
     <ClCompile Include="Src\FactoryMethod\FactoryMethod.cpp" />
     <ClCompile Include="Src\FlyWeight\FlyWeight.cpp" />
     <ClCompile Include="Src\Iterator\Iterator.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="Src\Command\Command.h" />
     <ClInclude Include="Src\Composite\Composite.h" />
     <ClInclude Include="Src\Decorator\Decorator.h" />
+    <ClInclude Include="Src\Facade\Facade.h" />
     <ClInclude Include="Src\FactoryMethod\FactoryMethod.h" />
     <ClInclude Include="Src\FlyWeight\FlyWeight.h" />
     <ClInclude Include="Src\Iterator\Iterator.h" />
