@@ -11,6 +11,7 @@
 #include "Iterator/Iterator.h"
 #include "Strategy/Strategy.h"
 #include "Mediator/Mediator.h"
+#include "Singleton/Singleton.h"
 #include "Prototype/Prototype.h"
 #include "Composite/Composite.h"
 #include "Decorator/Decorator.h"
